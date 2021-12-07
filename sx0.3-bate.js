@@ -86,11 +86,32 @@ window.XMLHttpRequest=function(){
                     answer = "AB"
                 }
 
+                else if(result.indexOf('"Answer":"AC"')!==-1)
+                {
+                    result = ("Answer:AC")
+                    alert(result)
+                    answer = "AC"
+                }
+
+                else if(result.indexOf('"Answer":"AD"')!==-1)
+                {
+                    result = ("Answer:AD")
+                    alert(result)
+                    answer = "AD"
+                }
+
                 else if(result.indexOf('"Answer":"ABC"')!==-1)
                 {
                     result = ("Answer:ABC")
                     alert(result)
                     answer = "ABC"
+                }
+
+                else if(result.indexOf('"Answer":"ACD"')!==-1)
+                {
+                    result = ("Answer:ACD")
+                    alert(result)
+                    answer = "ACD"
                 }
 
                 else if(result.indexOf('"Answer":"ABD"')!==-1)
